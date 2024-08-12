@@ -3,6 +3,15 @@
 
     Trash Hookfunction For Celery
     No Credits to Void (me) and free to use.
+
+    Useage: 
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jake1325/Roblox-Functions/main/modules/hookfunction.lua"))()
+
+     hookfunction(print, function()
+     warn("hooked print")
+    end)
+
 ]]
 
 function hookfunction(old, hook)
