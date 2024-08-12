@@ -19,7 +19,7 @@ function hookfunction(old, hook)
     getgenv()[funcName] = function(...)
         return hook(...)
     end
-    return false
+    return old
 end
 
 getgenv().hookfunction = hookfunction
