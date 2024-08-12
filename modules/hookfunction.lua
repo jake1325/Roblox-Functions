@@ -1,5 +1,9 @@
--- credits to void please
--- im joking free to use.
+--[[
+    hookfunction.lua
+
+    Trash Hookfunction For Celery
+    No Credits to Void (me) and free to use.
+]]
 
 function hookfunction(old, hook)
     local funcName = debug.getinfo(old).name
@@ -10,4 +14,4 @@ function hookfunction(old, hook)
 end
 
 getgenv().hookfunction = hookfunction
-print("loaded hookfunction")
+print("loaded trash hookfunction")
