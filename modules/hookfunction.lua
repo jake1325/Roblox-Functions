@@ -10,3 +10,4 @@ function hookfunction(old, hook)
 end
 
 getgenv().hookfunction = hookfunction
+print("loaded hookfunction")
