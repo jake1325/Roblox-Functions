@@ -4,7 +4,7 @@
     Trash Hookfunction For Celery
     No Credits to Void (me) and free to use and modify.
 
-    Useage: 
+    Usage: 
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jake1325/Roblox-Functions/main/modules/hookfunction.lua"))()
 
